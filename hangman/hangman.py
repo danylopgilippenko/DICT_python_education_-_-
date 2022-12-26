@@ -17,8 +17,9 @@ User: ''')
             print(' '.join(close_word))
             print(f"Your try:{tries}")
             letter_of_user = input("Input a letter:")
-            if len(letter_of_user) > 1:
+            if len(letter_of_user) > 1: 
                 print("You should input a single letter.")
+                tries -= 1 
                 continue
             if letter_of_user.isupper():
                 print("Please enter a lowercase English letter.")
@@ -46,4 +47,3 @@ User: ''')
     else:
         exit()
         break
-        
