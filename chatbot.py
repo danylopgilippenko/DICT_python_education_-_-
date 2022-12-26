@@ -21,8 +21,8 @@ print("Your age is ",age ,";that's a good time to start programming!")
 #ChatBot 4-th stage
 
 number_of_user = int(input("Now I will prove to you that I can count to any number you want.\n"))
-for i in range (0, number_of_user+1):
-    print(i,"!")
+for i in range (1, number_of_user * 2 + 1):
+    print(i,"\n")   
 print("Completed, have a nice day!")
 
 #ChatBot 5-th stage
